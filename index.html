@@ -28,6 +28,12 @@
             right: 0;
             margin: auto;
         }
+        
+        #parent {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+        }
     </style>
 </head>
 
@@ -36,7 +42,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-xs-12">
-                <div style="height:100%">
+                <div id="parent">
                     <canvas id="game" data-processing-sources="game/game.pde"></canvas>
                 </div>
             </div>
