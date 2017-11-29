@@ -44,14 +44,14 @@ void setup() {
   level = 1;
   gameOverCount = 0;
 
-  bkg = loadImage("PlayField.png");
-  welcomeBkg = loadImage("WelcomePage.jpg");
-  start = loadImage("start-button.png");
-  menu  = loadImage("BacktoMenu_button.png");
-  instruction = loadImage("Instructions_button.png");
-  restart  = loadImage("Restart_button.png");
-  exit  = loadImage("Exit_button.png");
-  title = loadImage("title.png");
+  bkg = loadImage("game/data/PlayField.png");
+  welcomeBkg = loadImage("game/data/WelcomePage.jpg");
+  start = loadImage("game/data/start-button.png");
+  menu  = loadImage("game/data/BacktoMenu_button.png");
+  instruction = loadImage("game/data/Instructions_button.png");
+  restart  = loadImage("game/data/Restart_button.png");
+  exit  = loadImage("game/data/Exit_button.png");
+  title = loadImage("game/data/title.png");
 
   colors[0] = color(54, 55, 58);
   colors[1] = color(255, 255, 3);
