@@ -12,6 +12,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="processing.min.js"></script>
 
+    <style>
+        #game {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+    </style>
 </head>
 
 <body>
@@ -19,7 +29,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-xs-12">
-                <canvas data-processing-sources="game/game.pde"></canvas>
+                <canvas id="game" data-processing-sources="game/game.pde"></canvas>
             </div>
         </div>
     </div>
