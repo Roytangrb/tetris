@@ -19,19 +19,16 @@
             height: 100%;
             margin: 0;
             padding: 0;
+            overflow: hidden;
         }
         
         #game {
             position: absolute;
+            height: 100%;
+            width: auto;
             left: 0;
             right: 0;
             margin: 0;
-        }
-        
-        #parent {
-            position: absolute;
-            height: 100%;
-            width: 100%;
         }
     </style>
 </head>
@@ -41,9 +38,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-xs-12">
-                <div id="parent">
-                    <canvas id="game" data-processing-sources="game/game.pde"></canvas>
-                </div>
+                <canvas id="game" data-processing-sources="game/game.pde"></canvas>
             </div>
         </div>
     </div>
