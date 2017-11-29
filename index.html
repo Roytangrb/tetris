@@ -26,7 +26,7 @@
             position: absolute;
             left: 0;
             right: 0;
-            margin: 0;
+            margin: auto;
         }
     </style>
 </head>
@@ -41,6 +41,13 @@
         </div>
     </div>
 
+    <script>
+        window.onload = window.onresize = function() {
+            var canvas = document.getElementById('game');
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+    </script>
 </body>
 
 </html>
